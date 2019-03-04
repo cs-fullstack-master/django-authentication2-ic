@@ -3,9 +3,9 @@ from django.shortcuts import render
 
 # Create your views here.
 def all_classes(request):
-    return HttpResponse('all classes')
+    return render(request, 'd_a_app/all_classes.html')
 
 def my_classes(request):
-    return HttpResponse('my classes')
+    return render(request, 'd_a_app/my_classes.html')
 
 
