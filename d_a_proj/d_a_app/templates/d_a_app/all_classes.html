@@ -6,5 +6,16 @@ All Classes
 
 {% block content %}
 
+{% if course_list %}
+
+    {% for eachItem in course_list %}
+        <h2>{{ eachItem.course_name }}</h2>
+        <p>{{ eachItem.course_description }}</p>
+
+    {% endfor %}
+
+{% else %}
+    <p>No Courses Available.</p>
+{% endif %}
 {% endblock content %}
 
