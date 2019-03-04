@@ -1,2 +1,4 @@
-# django-authentication2-ic
-Django Authentication
+# Django Authentication
+
+Code together simple Course management application with authetication
+
