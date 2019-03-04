@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5154cf27-9463-4020-987d-220d851d1060" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/d_a_proj/d_a_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_a_proj/d_a_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d_a_proj/d_a_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_a_proj/d_a_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_a_proj/d_a_proj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/d_a_proj/d_a_proj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_a_proj/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/d_a_proj/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_proj/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="222">
+              <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -46,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="184">
               <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -59,10 +60,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/templates/registration/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-201">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="139">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="39" />
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="56" />
               <folding>
                 <element signature="e#1#33#0" expanded="true" />
               </folding>
@@ -73,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="368">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -125,15 +135,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/d_a_proj/d_a_proj/settings.py" />
         <option value="$PROJECT_DIR$/d_a_proj/d_a_app/models.py" />
         <option value="$PROJECT_DIR$/d_a_proj/d_a_app/admin.py" />
         <option value="$PROJECT_DIR$/d_a_proj/d_a_proj/urls.py" />
         <option value="$PROJECT_DIR$/d_a_proj/d_a_app/urls.py" />
-        <option value="$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/index.html" />
         <option value="$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/all_classes.html" />
         <option value="$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/my_classes.html" />
         <option value="$PROJECT_DIR$/d_a_proj/d_a_app/views.py" />
+        <option value="$PROJECT_DIR$/d_a_proj/d_a_app/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/index.html" />
+        <option value="$PROJECT_DIR$/d_a_proj/d_a_proj/settings.py" />
       </list>
     </option>
   </component>
@@ -183,6 +194,12 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="d_a_app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="django-authentication2-ic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-authentication2-ic" type="462c0819:PsiDirectoryNode" />
+              <item name="d_a_proj" type="462c0819:PsiDirectoryNode" />
+              <item name="d_a_proj" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -195,7 +212,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551728901232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551729843584" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -225,12 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551724328610</updated>
-      <workItem from="1551724330036" duration="4174000" />
+      <workItem from="1551724330036" duration="5115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4174000" />
+    <option name="totallyTimeSpent" value="5115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1280" height="644" extended-state="6" />
@@ -241,12 +258,12 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18881686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18881686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.23106796" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.28737864" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -271,13 +288,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_proj/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -308,23 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#1#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/all_classes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -339,13 +332,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/templates/registration/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="184">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/templates/d_a_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="56" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_a_proj/d_a_proj/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
         </state>
       </provider>
     </entry>
