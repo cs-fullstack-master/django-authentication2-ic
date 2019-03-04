@@ -11,7 +11,11 @@ All Classes
     {% for eachItem in course_list %}
         <h2>{{ eachItem.course_name }}</h2>
         <p>{{ eachItem.course_description }}</p>
+        <!--{{ perms.d_a_app }}-->
+        {% if perms.d_a_app.delete_course %}
+<p><a href="#"> Delete? </a></p>
 
+        {% endif %}
     {% endfor %}
 
 {% else %}
